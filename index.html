@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- font awesome 5 free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- Poppins font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/font-awesome.min.css">
+
+
+  <title>Sky Cash - Empréstimo Consignado</title>
+</head>
+
+<body>
+
+    <!--Offer Alert ================================ -->
+     <div class="offer-alert">
+       <div class="offer-alert__container container">
+        <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+          <ul class="nav w-100 list-unstyled align-items-center p-0">
+            <li class="hero-nav__item">
+              <a href="index.html"><img class="hero-nav__logo" src="assets/imgs/logo.png"></a>
+            </li>
+            <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+              <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0" style="height: 50px;">
+                <li class="flex-grow-1">
+                  <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                    <li class="hero-nav__item">
+                      <a href="#" class="nav-btn">Simular</a>
+                    </li>
+                    <li class="hero-nav__item">
+                      <a href="#" class="hero-nav__link">Crédito Pessoal</a>
+                    </li>
+                    <li class="hero-nav__item">
+                      <a href="#" class="hero-nav__link">Crédito Consignado</a>
+                    </li>
+           
+                </li>
+              </ul>
+              <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+                class="ft-menu__close-btn animated">
+                <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                    clip-rule="evenodd" />
+                  <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                    clip-rule="evenodd" />
+                </svg>
+              </button>
+            </li>
+            <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+              <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+                class="text-center px-2">
+                <i class="fas fa-bars"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+       </div>
+     </div>
+
+
+
+
+    
+  <!--Hero ====================================== -->
+  <header class="hero container-fluid border-bottom"> 
+    <div class="hero__content container mx-auto main-mobile">
+      <div class="row px-0 mx-0 align-items-center">
+        <div class="col-lg-6 px-0">
+          <h1 class="hero__title mb-3">
+           <span class="highlight"> Empréstimos Consignados</span> e Empréstimos Pessoais
+          </h1>
+          <p class="hero__paragraph mb-4">
+            Encontre as melhores taxas pro seu empréstimo consignado ou pessoal aqui na Sky Cash.
+          </p>
+          <div class="hero__btns-container">
+            <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
+              Quanto tenho disponível?
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0 mx-0">
+          <div class="hero__img-container">
+            <img src="assets/imgs/img-1.png" class="hero__img img-main">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================== -->
+
+  <div id="product" class="block-5 space-between-blocks">
+    <div class="container">
+      <!-- HEADER -->
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+        <h1 class="block__title mb-3"><span class="highlight">PRODUTOS</span> QUE NÓS OFERECEMOS</h1>
+        <p class="block__paragraph mb-0">
+
+          Estes são os produtos que oferecemos e alguns dos beneficiários que podem solicitar empréstimos com a Sky Cash.
+        </p>
+      </div>
+      <div class="row align-items-center flex-column-reverse flex-lg-row px-2">
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-1.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Crédito Consignado</h3>
+              <p class="card-2__paragraph">
+             A modalidade de Crédito com as menores taxas do mercado, com parcelas de até 84 vezes.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-2.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Crédito Pessoal</h3>
+              <p class="card-2__paragraph">
+                Empréstimo voltado para todos os tipos de pessoas, com o uso do dinheiro livre.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex flex-row flex-lg-row-reverse">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-3.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Aposentados e Pensionistas</h3>
+              <p class="card-2__paragraph">
+                Aposentados e Pensionistas do INSS, tem direito ao Crédito, descontado diretamente do benefício.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- IMAGE -->
+        <div class="col-lg-4 my-5 text-center">
+          <img src="assets/imgs/teste.png" class="w-75">
+        </div>
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-4">
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-4.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Servidores Públicos</h3>
+              <p class="card-2__paragraph">
+                Aqueles que trabalham para órgãos públicos (municipais, estaduais ou federais).
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-5.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">LOAS e BPC</h3>
+              <p class="card-2__paragraph">
+                Aqueles que recebem o Benefício Assistencial (ou Benefício de Prestação Continuada – BPC) do INSS.
+              </p>
+            </div>
+          </div>
+          <div class="card-2 d-flex">
+            <div>
+              <span class="card-2__symbol mx-auto">
+                <img src="/assets/imgs/icon-6.png" style="width: 40px;" alt="">
+              </span>
+            </div>
+            <div class="px-2"></div>
+            <div>
+              <h3 class="card-2__title mb-2">Auxílio Brasil</h3>
+              <p class="card-2__paragraph">
+                É uma nova forma de Crédito, vinculado ao Auxílio Brasil, onde você recebe até R$2.400, descontado direto do benefício.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================== -->
+
+  <section id="team" data-stellar-background-ratio="1">
+    <div class="container">
+         <div class="row">
+
+          <div class="col-lg-8 col-xl-8 mx-auto text-center mb-5">
+            <h1 class="block__title mb-3" style="color:#0a1f44; padding-top: 70px;"><span class="highlight">PASSO A PASSO</span> DA CONTRATAÇÃO:</h1>
+            <p class="block__paragraph mb-0" style="color:#0a1f44;">
+    
+              Estes são os produtos que oferecemos e alguns dos beneficiários que podem solicitar empréstimos com a Sky Cash.
+            </p>
+          </div>
+
+         <div class="row" style="margin: 10px 0px 70px 0px;">                    
+
+              <div class="col-md-4  wow fadeInUp" data-wow-delay="0.2s">
+                   <div class="card-passo card-passo-1">
+                     <h3 style="font-size:1.65rem;">Simular o valor</h3>
+                     <p>Faça a simulação do valor de seu empréstimo, em poucos minutos aqui no site.</p>
+                   </div>
+                 </div>
+                 <div class="col-md-4  wow fadeInDown" data-wow-delay="0.3s">
+                   <div class="card-passo card-passo-2">
+                     <h3 style="font-size:1.65rem;">Escolher o banco</h3>
+                     <p>Você irá receber uma lista de ofertas de um de nossos bancos parceiros.</p>
+                   </div>
+                 </div>
+                 <div class="col-md-4  wow fadeInUp" data-wow-delay="0.4s">
+                   <div class="card-passo card-passo-3">
+                     <h3 style="font-size:1.65rem;">Contratar</h3>
+                     <p>Contrate o empréstimo que você considera mais adequado para suas necessidades.</p>
+                   </div>
+                 </div>
+
+         </div>     
+         </div>
+    </div>
+</section>
+
+
+<div id="testimonials" class="block-20 space-between-blocks">
+  <div class="container">
+    <div class="block__header col-lg-8 col-xl-8 mx-auto text-center px-0">
+      <h1 class="block__title mb-3"> <span class="highlight">VANTAGENS DE CONTRATAR</span> COM A SKY CASH</h1>
+      <p class="block__paragraph">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
+        standard
+      </p>
+    </div>
+    <div class="row px-2">
+      <div class="col-lg-4">
+        <div class="testimonial-card-1 mb-5" style="min-height: 380px;">
+          <img src="assets/imgs/img1.png" alt="" style="width:150px;">
+          <h3 class="card-1__title mb-2">Baixa taxa de Juros</h3>
+          <p class="testimonial-card-1__paragraph mb-3">
+            O crédito ou empréstimo consignado possui as menores taxas do mercado por ter a garantia de pagamento maior que os outros tipos de crédito.
+          </p>
+          <div class="block-20__person">
+           
+          </div>
+        
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="testimonial-card-1 mb-5" style="min-height: 380px;">
+          <img src="assets/imgs/img2.png" alt="" style="width:150px;">
+          <h3 class="card-1__title mb-2">Parcelas Fixas</h3>
+          <p class="testimonial-card-1__paragraph mb-3">
+            É possível conseguir crédito consignado com apenas 2% de juros ao mês, parcelas fixas e até 96 meses para pagar. Sem burocracia.
+          </p>
+          <div class="block-20__person">
+           
+          </div>
+        
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="testimonial-card-1 mb-5" style="min-height: 380px;">
+          <img src="assets/imgs/img3.png" alt="" style="width:150px;">
+          <h3 class="card-1__title mb-2">Prazos Longos de Pagamento</h3>
+          <p class="testimonial-card-1__paragraph mb-3">
+            Por conta das parcerias com diversas instituições financeiras, você consegue ter acesso a juros baixíssimos e a prazos maiores de pagamento.
+          </p>
+          <div class="block-20__person">
+           
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+<div id="product" class="block-5 space-between-blocks">
+  <div class="container" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+    <!-- HEADER -->
+    <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+      <h1 class="block__title mb-3">ALGUNS DE NOSSOS<span class="highlight"> BANCOS PARCEIROS</span></h1>
+      <p class="block__paragraph mb-0">
+        Iremos encontrar a melhor opção para você entre mais de 35 bancos parceiros.
+      </p>
+    </div>
+    <div class="row align-items-center flex-column-reverse flex-lg-row px-2">
+
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/1.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/2.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/3.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/4.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/5.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/6.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/7.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/8.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/9.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/10.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/11.png" width="110">
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-2 wow fadeInDown" data-wow-delay="0.1s">
+        <div class="p-3 text-center px-4" style="cursor:pointer;">
+            <div class="img-bancos">
+              <img src="assets/imgs/bancos/12.png" width="110">
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- ===================================== -->
+
+  <!-- <div id="features" class="block-11 space-between-blocks">
+    <div class="container">
+      <div class="block__header col-lg-8 col-xl-7 mx-auto text-center">
+        <p class="block__pre-title mb-2">GET MORE DETAILS</p>
+        <h1 class="block__title mb-3">Awesome Technical <span class="highlight">Specs</span></h1>
+        <p class="block__paragraph mb-0">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
+          standard
+        </p>
+      </div>
+      <div class="row align-items-center justify-content-center flex-column-reverse flex-lg-row px-2">
+        <div class="col-lg-4 col-xl-5 p-lg-5">
+          <img class="w-100" src="assets/imgs/img-3.png">
+        </div>
+        <div class="col-lg-8 col-xl-6">
+          <div class="row">
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 card-1--selected text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-camera-retro"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Camera Available</h3>
+                <p class="card-1__paragraph">
+                  Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                  Lorem Ipsum has been the industry’s
+                  standard.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-leaf"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Eco Friendly</h3>
+                <p class="card-1__paragraph">
+                  Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                  Lorem Ipsum has been the industry’s
+                  standard.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-cog"></i>
+                </span>
+                <h3 class="card-1__title mb-2">Readable in Sunlight</h3>
+                <p class="card-1__paragraph">
+                  Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                  Lorem Ipsum has been the industry’s
+                  standard.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2-1rem">
+              <div class="card-1 text-center">
+                <span class="card-1__symbol mx-auto mb-4">
+                  <i class="fas fa-database"></i>
+                </span>
+                <h3 class="card-1__title mb-2">30 Days Battery Time</h3>
+                <p class="card-1__paragraph">
+                  Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                  Lorem Ipsum has been the industry’s
+                  standard.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- ------------------------------------------------------------------------------------------------------ -->
+
+  
+  <div class="hero__content container mx-auto" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;   ">
+    <div class="row px-0 mx-0 align-items-center main-mobile">
+      <div class="col-lg-5 px-0">
+        <h1 class="hero__title mb-3">
+         <span style="font-size: 62px; color: #131a35;">Loja Física</span></h1>
+        <p class="hero__paragraph mb-4" style="color:#0a1f44; font-size: 1.1rem;">
+          Além de nossos serviços online, contamos também com uma loja física:
+        </p>
+        <div class="">
+          <p class="p-loja"><i class="fa-loja"><img src="assets/imgs/icon1-loja.png" class="img-loja"  alt=""> </i>Avenina Rui Barbosa, 860 - Carapicuiba - SP, 06311-001</p>
+          <p class="p-loja"><i class="fa-loja"><img src="assets/imgs/icon2-loja.png" class="img-loja" alt=""></i>(11)3230-4956</p>
+    </div>
+
+  
+        <div class="hero__btns-container" style="padding-top: 20px;">
+          <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="#">
+            Ou nos chame no Whatsapp!
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-7 mt-5 mt-lg-0 mx-0">
+        <div class="hero__img-container">
+          <img src="assets/imgs/loja.png" class="hero__img loja-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- =================================== -->
+  <footer>
+    <div class="container">
+
+    <p class="p-footer">BRACEIRO TOUR DIGITAÇÃO E VIAGENS detentora da marca “Sky Cash” é correspondente bancário credenciado em diversas instituições financeiras. O crédito é sujeito a margem consignável disponível e adequação à política de concessão estabelecida por cada instituição. Valores de parcelas, prazos, taxa de juros, tarifas e CET (Custo Efetivo Total) podem variar conforme o INSS e a qualquer tempo. Taxa de Juros máxima de 2,14 a.m. e/ou 28,88 a.a. Todas as operações de crédito têm incidência de IOF, conforme legislação vigente. É direito ao mutuário o pagamento antecipado a qualquer tempo.</p>
+      <div class="row">
+        <div class="col-md-4 col-sm-4"> 
+          <div class="footer-thumb">
+               <div class="opening-hours">
+                    <h4 class="h4-footer">SkyCash</h4>
+                    <p style="max-width: 300px;">SkyCash, correspondente autorizado de mais de 30 bancos. Reconhecido pela agilidade na elaboração dos contratos e na liberação do crédito ao cliente.</p>
+
+               </div> 
+          </div>
+     </div>
+
+     <div class="col-md-4 col-sm-4">
+      <div class="footer-thumb">
+          
+          <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contato</h4>
+          <div class="">
+                <p> <a href="#">(11)3230-4956</a></p>
+                <p> <a href="#">contato@skycash.com.br</a></p>
+          </div>
+                <p>BRACEIRO TOUR DIGITAÇÃO E VIAGENS
+                  <br>Avenina Rui Barbosa, 860 
+                  <br>Carapicuiba - SP, 06311-001</p>
+          
+      </div>
+    </div>
+     
+     <div class="col-md-4 col-sm-4"> 
+      <div class="footer-thumb"> 
+           <h4 class="wow fadeInUp" data-wow-delay="0.4s">Veja Também</h4>
+           <div class="latest-stories">
+              
+           </div>
+           <div class="latest-stories">
+                <div class="stories-info">
+                     <a href="politicas-de-privacidade.html"><h5>Politicas de Privacidade</h5></a>
+                </div>
+           </div>
+           <div class="latest-stories">
+                <div class="stories-info">
+                     <a href="termos-de-uso.html"><h5>Termos de Uso</h5></a>
+                </div>
+           </div>
+           <div class="latest-stories">
+                <div class="stories-info">
+                     <a href="dpo.html"><h5>Contato DPO</h5></a>
+                </div>
+           </div>
+
+
+      </div>
+ </div>
+       
+      </div>
+    </div>
+  </footer>
+    
+
+
+  <div class="block-44 py-5">
+    <div class="container">
+      <div class="row px-0 mx-0 justify-content-center align-items-center">
+        <div class="block-44__logo-container">
+          <a href="index.html"> <img class="block-44__logo" src="assets/imgs/logo.png"></a>
+        </div>
+        <ul class="block-44__list list-unstyled justify-content-center mb-0">
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Crédito Consignado</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="block-44__link">Crédito Pessoal</a>
+          </li>
+          <li class="block-44__li-1">
+            <a href="#" class="nav-btn">Simular</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="block-44__divider">
+    <div class="container">
+      <div class="row flex-column flex-md-row px-2 justify-content-center">
+        <div class="flex-grow-1">
+          <ul class="block-44__extra-links d-flex list-unstyled p-0">
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="block-44__link m-0">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="block-41__copyrights">Copyright &copy; Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================== -->
+
+  <script src="assets/app.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
