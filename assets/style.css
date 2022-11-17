@@ -1717,6 +1717,10 @@ padding-left: 60px;
   margin: auto;
 }
 
+.span-lojas{
+  font-size: 62px; color: #131a35;
+}
+
 @media(max-width: 985px) {
   .main-mobile {
     display: flex;
@@ -1745,6 +1749,12 @@ padding-left: 60px;
   .loja-img {
     width: 400px;
      } 
+     .span-lojas{
+      font-size: 42px;
+    }
+    .img-loja{
+      height: 35px;
+    }
     }
 
 @media(max-width: 430px) {
